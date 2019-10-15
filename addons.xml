@@ -60,7 +60,7 @@
 </extension>
 </addon><addon id="script.module.mechanize" name="Mechanize" provider-name="Tristan Fischer (sphere)" version="0.4.3">
   <requires>
-    <import addon="xbmc.python" version="1.0" />
+    <import addon="xbmc.python" version="2.26.0" />
   </requires>
   <extension library="lib" point="xbmc.python.module" />
   <extension point="xbmc.addon.metadata">

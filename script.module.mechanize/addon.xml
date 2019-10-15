@@ -4,11 +4,9 @@
        version="0.4.3"
        provider-name="Tristan Fischer (sphere)">
   <requires>
-    <import addon="xbmc.python" 
-            version="1.0"/>
+    <import addon="xbmc.python" version="2.26.0"/>
   </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
+  <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
     <summary>Stateful programmatic web browsing in Python, after Andy Lester’s Perl module WWW::Mechanize.</summary>
     <description>packed for kodi from https://github.com/python-mechanize/mechanize</description>
