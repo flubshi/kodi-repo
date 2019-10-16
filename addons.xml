@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.waipu.tv" name="Waipu.tv / O2 TV" provider-name="flubshi, MiRo" version="0.3.0">
+<addons><addon id="plugin.video.waipu.tv" name="Waipu.tv / O2 TV" provider-name="flubshi, MiRo" version="0.3.1">
 <requires>
   <import addon="xbmc.python" version="2.25.0" />
   <import addon="script.module.requests" version="2.12.4" />
   <import addon="script.module.inputstreamhelper" version="0.3.3" />
   <import addon="script.module.dateutil" version="2.7.3" />
-  <import addon="script.module.mechanize" version="0.4.3" />
+  <import addon="script.module.mechanize" version="0.2.6" />
 </requires>
 <extension library="main.py" point="xbmc.python.pluginsource">
   <provides>video</provides>
@@ -30,6 +30,7 @@
     <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
   </assets>
   <news>
+- 0.3.1 Adjust mechanize dependency to keep Leia compatible
 - 0.3.0 Add python3 support
 - 0.2.9 Display and play active recordings
 - 0.2.8 Add O2 Branding and smaller improvements
@@ -59,15 +60,4 @@
 - 0.0.1 Initial alpha version
   </news>
 </extension>
-</addon><addon id="script.module.mechanize" name="Mechanize" provider-name="Tristan Fischer (sphere)" version="0.4.3">
-  <requires>
-    <import addon="xbmc.python" version="2.26.0" />
-  </requires>
-  <extension library="lib" point="xbmc.python.module" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Stateful programmatic web browsing in Python, after Andy Lester’s Perl module WWW::Mechanize.</summary>
-    <description>packed for kodi from https://github.com/python-mechanize/mechanize</description>
-    <license>BSD</license>
-    <platform>all</platform>
-  </extension>
 </addon></addons>
